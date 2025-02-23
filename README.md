@@ -1,4 +1,4 @@
-# Bryan Johnson Longevity Agent
+# Longevity News AI Agent
 
 A **Next.js** project that parses Bryan Johnson’s latest tweets, longevity-related news, and personal metrics, then displays them in a structured format. This agent is hardcoded to focus on Bryan’s health data, dietary protocols, and lifestyle experiments.
 
