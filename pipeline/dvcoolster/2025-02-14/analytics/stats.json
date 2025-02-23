@@ -1,0 +1,59 @@
+{
+  "totalTweets": 50,
+  "directTweets": 16,
+  "replies": 34,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 273,
+    "totalRetweetCount": 16,
+    "totalReplies": 40,
+    "averageLikes": "5.46",
+    "topTweets": [
+      {
+        "id": "1885720738977509572",
+        "text": "Another Portal has opened \\z/ \n\nZo ❤️ Zo 🔥 Zo 🌍",
+        "likes": 58,
+        "retweetCount": 5,
+        "url": "https://twitter.com/dvcoolster/status/1885720738977509572"
+      },
+      {
+        "id": "1887160810331615313",
+        "text": "Just Zo ❤️ Zo 🔥 Zo 🌍 \n\nAnd the locations will pop-up \\z/",
+        "likes": 34,
+        "retweetCount": 5,
+        "url": "https://twitter.com/dvcoolster/status/1887160810331615313"
+      },
+      {
+        "id": "1887192116381749274",
+        "text": "Antwerp was one of the best cities where I solo traveled, fell in love with solo traveling and ended",
+        "likes": 27,
+        "retweetCount": 1,
+        "url": "https://twitter.com/dvcoolster/status/1887192116381749274"
+      },
+      {
+        "id": "1889686499781660881",
+        "text": "The world is one family, making it real and realising one at a time \\z/ \n\nZo ❤️ Zo 🔥 Zo 🌍",
+        "likes": 20,
+        "retweetCount": 1,
+        "url": "https://twitter.com/dvcoolster/status/1889686499781660881"
+      },
+      {
+        "id": "1887797090249544049",
+        "text": "AI cooks. Drug-Devs ship. DeSci wins 📷\nYou coming or just watching?",
+        "likes": 17,
+        "retweetCount": 1,
+        "url": "https://twitter.com/dvcoolster/status/1887797090249544049"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2025-01-30",
+    "end": "2025-02-13"
+  },
+  "contentTypes": {
+    "withImages": 1,
+    "withVideos": 0,
+    "withLinks": 1,
+    "textOnly": 48
+  }
+}

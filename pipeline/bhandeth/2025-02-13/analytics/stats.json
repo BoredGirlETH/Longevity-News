@@ -1,0 +1,59 @@
+{
+  "totalTweets": 50,
+  "directTweets": 14,
+  "replies": 36,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 242,
+    "totalRetweetCount": 17,
+    "totalReplies": 19,
+    "averageLikes": "4.84",
+    "topTweets": [
+      {
+        "id": "1886722534441410716",
+        "text": "serving tasty alpha 👀\nZo Zo Zo\n❤️ https://t.co/VFFcQH0MyA",
+        "likes": 31,
+        "retweetCount": 4,
+        "url": "https://twitter.com/BhandEth/status/1886722534441410716"
+      },
+      {
+        "id": "1889189190480359627",
+        "text": "Just say Zo Zo Zo!\n\n#bhandart #AIart https://t.co/uZSAwwODgf",
+        "likes": 30,
+        "retweetCount": 6,
+        "url": "https://twitter.com/BhandEth/status/1889189190480359627"
+      },
+      {
+        "id": "1886293740915950073",
+        "text": "Zo Zo Zo ❤️\nGM to all you rockstars 🏁\n\n#bhandart #AIart #MintIt https://t.co/vjqhu7iDqe",
+        "likes": 24,
+        "retweetCount": 0,
+        "url": "https://twitter.com/BhandEth/status/1886293740915950073"
+      },
+      {
+        "id": "1887472633467277501",
+        "text": "i purposely didn't wanna loop this one..\n\n#bhandart #aiart https://t.co/mZ84dNEXsr",
+        "likes": 19,
+        "retweetCount": 2,
+        "url": "https://twitter.com/BhandEth/status/1887472633467277501"
+      },
+      {
+        "id": "1886535600762970552",
+        "text": "Miracle man @dvcoolster ✨",
+        "likes": 19,
+        "retweetCount": 1,
+        "url": "https://twitter.com/BhandEth/status/1886535600762970552"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2025-02-02",
+    "end": "2025-02-11"
+  },
+  "contentTypes": {
+    "withImages": 2,
+    "withVideos": 4,
+    "withLinks": 3,
+    "textOnly": 41
+  }
+}

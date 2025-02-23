@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 47,
+  "replies": 53,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 176821,
+    "totalRetweetCount": 7602,
+    "totalReplies": 12545,
+    "averageLikes": "1768.21",
+    "topTweets": [
+      {
+        "id": "1891976980566016024",
+        "text": "I injected the horse tranquilizer Ketamine and tracked my brain data for 15 days.  It completely scr",
+        "likes": 17700,
+        "retweetCount": 1105,
+        "url": "https://twitter.com/bryan_johnson/status/1891976980566016024"
+      },
+      {
+        "id": "1892070384662728905",
+        "text": "I replied with this comment and he hid it and blocked me:\n\nAir quality in Haridwar right now is\nPM₂.",
+        "likes": 12000,
+        "retweetCount": 1217,
+        "url": "https://twitter.com/bryan_johnson/status/1892070384662728905"
+      },
+      {
+        "id": "1891527734469235137",
+        "text": "Dancing improves heart health, strength, balance, bone density, and cognition. It reduces stress, an",
+        "likes": 8894,
+        "retweetCount": 270,
+        "url": "https://twitter.com/bryan_johnson/status/1891527734469235137"
+      },
+      {
+        "id": "1892785983239966858",
+        "text": "@SenLummis Senator Lummis - one can of Celsius has 200 mg of caffeine. You posted at 8:40 pm. If you",
+        "likes": 7928,
+        "retweetCount": 148,
+        "url": "https://twitter.com/bryan_johnson/status/1892785983239966858"
+      },
+      {
+        "id": "1892984566929072628",
+        "text": "There is a decent probability that evidence will show that this nutrition guide is the best in the w",
+        "likes": 5870,
+        "retweetCount": 443,
+        "url": "https://twitter.com/bryan_johnson/status/1892984566929072628"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2025-02-15",
+    "end": "2025-02-22"
+  },
+  "contentTypes": {
+    "withImages": 32,
+    "withVideos": 9,
+    "withLinks": 3,
+    "textOnly": 56
+  }
+}

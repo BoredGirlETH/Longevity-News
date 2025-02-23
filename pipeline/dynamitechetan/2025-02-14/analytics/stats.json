@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 46,
+  "replies": 54,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 608,
+    "totalRetweetCount": 10,
+    "totalReplies": 108,
+    "averageLikes": "6.08",
+    "topTweets": [
+      {
+        "id": "1429078918787518464",
+        "text": "(1/n) I am thrilled to announce that we are starting up!",
+        "likes": 117,
+        "retweetCount": 1,
+        "url": "https://twitter.com/DynamiteChetan/status/1429078918787518464"
+      },
+      {
+        "id": "1500766068830515200",
+        "text": "Got our first paid customer on a side project. https://t.co/sJWI3RI4KL",
+        "likes": 39,
+        "retweetCount": 0,
+        "url": "https://twitter.com/DynamiteChetan/status/1500766068830515200"
+      },
+      {
+        "id": "1456526032031211522",
+        "text": "Chutti sirf employees ki hoti hai 🙂",
+        "likes": 26,
+        "retweetCount": 1,
+        "url": "https://twitter.com/DynamiteChetan/status/1456526032031211522"
+      },
+      {
+        "id": "1429078920704389122",
+        "text": "(2/n) My time at @gojektech has been amazing and I have learned a lot from the amazing team there. I",
+        "likes": 24,
+        "retweetCount": 0,
+        "url": "https://twitter.com/DynamiteChetan/status/1429078920704389122"
+      },
+      {
+        "id": "1450397250543230976",
+        "text": "Waterfall model of trader's lifecycle. #IRCTC https://t.co/8OIAyDLHSw",
+        "likes": 23,
+        "retweetCount": 1,
+        "url": "https://twitter.com/DynamiteChetan/status/1450397250543230976"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2021-06-10",
+    "end": "2023-09-16"
+  },
+  "contentTypes": {
+    "withImages": 22,
+    "withVideos": 0,
+    "withLinks": 6,
+    "textOnly": 73
+  }
+}

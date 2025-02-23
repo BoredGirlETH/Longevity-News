@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 33,
+  "replies": 67,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 614,
+    "totalRetweetCount": 34,
+    "totalReplies": 56,
+    "averageLikes": "6.14",
+    "topTweets": [
+      {
+        "id": "1883419136266801441",
+        "text": "Bullish on @dvcoolster since 2014\nHappy birthday captain !\n\nManifesting his birthday to turn into a ",
+        "likes": 46,
+        "retweetCount": 0,
+        "url": "https://twitter.com/BhandEth/status/1883419136266801441"
+      },
+      {
+        "id": "1881670035095384159",
+        "text": "GM 👑\nfrom my new favourite spot at @WTFxZo https://t.co/5geq6b3CDH",
+        "likes": 33,
+        "retweetCount": 1,
+        "url": "https://twitter.com/BhandEth/status/1881670035095384159"
+      },
+      {
+        "id": "1886722534441410716",
+        "text": "serving tasty alpha 👀\nZo Zo Zo\n❤️ https://t.co/VFFcQH0MyA",
+        "likes": 31,
+        "retweetCount": 4,
+        "url": "https://twitter.com/BhandEth/status/1886722534441410716"
+      },
+      {
+        "id": "1889189190480359627",
+        "text": "Just say Zo Zo Zo!\n\n#bhandart #AIart https://t.co/uZSAwwODgf",
+        "likes": 30,
+        "retweetCount": 6,
+        "url": "https://twitter.com/BhandEth/status/1889189190480359627"
+      },
+      {
+        "id": "1885631043006267712",
+        "text": "GM 🐋\nZo Zo Zo\n\n#bhandart #AIart https://t.co/RY2SCqmkVB",
+        "likes": 29,
+        "retweetCount": 4,
+        "url": "https://twitter.com/BhandEth/status/1885631043006267712"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2025-01-18",
+    "end": "2025-02-14"
+  },
+  "contentTypes": {
+    "withImages": 8,
+    "withVideos": 5,
+    "withLinks": 4,
+    "textOnly": 84
+  }
+}

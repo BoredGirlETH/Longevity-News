@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 5,
+  "replies": 95,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 402,
+    "totalRetweetCount": 8,
+    "totalReplies": 100,
+    "averageLikes": "4.02",
+    "topTweets": [
+      {
+        "id": "1887851304468582479",
+        "text": "What did you get done this week?\n\nAt Monad, we want to support as many founders as possible. But a c",
+        "likes": 93,
+        "retweetCount": 3,
+        "url": "https://twitter.com/PareenL/status/1887851304468582479"
+      },
+      {
+        "id": "1889900157283827802",
+        "text": "Locked in, literally \n\nWho does that! https://t.co/GKEmiL3Vio",
+        "likes": 63,
+        "retweetCount": 1,
+        "url": "https://twitter.com/PareenL/status/1889900157283827802"
+      },
+      {
+        "id": "1890318967807619140",
+        "text": "🚀 Founder Office Hours by Monad\n\n23 founders joined us for:\n- Product Demos\n- Feedback and ideas\n- ",
+        "likes": 42,
+        "retweetCount": 3,
+        "url": "https://twitter.com/PareenL/status/1890318967807619140"
+      },
+      {
+        "id": "1890235242616885399",
+        "text": "Denver rollcall\n\nWho is going?",
+        "likes": 35,
+        "retweetCount": 0,
+        "url": "https://twitter.com/PareenL/status/1890235242616885399"
+      },
+      {
+        "id": "1889651911156179111",
+        "text": "Most founders think there’s only one way to build a startup:\n1. Build an MVP\n2. Raise funds\n3. Acqui",
+        "likes": 22,
+        "retweetCount": 1,
+        "url": "https://twitter.com/PareenL/status/1889651911156179111"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2025-02-07",
+    "end": "2025-02-14"
+  },
+  "contentTypes": {
+    "withImages": 5,
+    "withVideos": 0,
+    "withLinks": 2,
+    "textOnly": 93
+  }
+}

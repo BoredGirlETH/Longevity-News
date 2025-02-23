@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 30,
+  "replies": 70,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 578,
+    "totalRetweetCount": 46,
+    "totalReplies": 60,
+    "averageLikes": "5.78",
+    "topTweets": [
+      {
+        "id": "1893154691426681247",
+        "text": "GM ☕️ https://t.co/O31hS1kHdV",
+        "likes": 50,
+        "retweetCount": 3,
+        "url": "https://twitter.com/BhandEth/status/1893154691426681247"
+      },
+      {
+        "id": "1889189190480359627",
+        "text": "Just say Zo Zo Zo!\n\n#bhandart #AIart https://t.co/uZSAwwODgf",
+        "likes": 31,
+        "retweetCount": 6,
+        "url": "https://twitter.com/BhandEth/status/1889189190480359627"
+      },
+      {
+        "id": "1886722534441410716",
+        "text": "serving tasty alpha 👀\nZo Zo Zo\n❤️ https://t.co/VFFcQH0MyA",
+        "likes": 31,
+        "retweetCount": 4,
+        "url": "https://twitter.com/BhandEth/status/1886722534441410716"
+      },
+      {
+        "id": "1885631043006267712",
+        "text": "GM 🐋\nZo Zo Zo\n\n#bhandart #AIart https://t.co/RY2SCqmkVB",
+        "likes": 29,
+        "retweetCount": 4,
+        "url": "https://twitter.com/BhandEth/status/1885631043006267712"
+      },
+      {
+        "id": "1885361550682448005",
+        "text": "Ek din baithe baithe mujhe ye duniya buri lag gayi..\nJisko abaad karte hue mere maa baap ki zindagi ",
+        "likes": 28,
+        "retweetCount": 1,
+        "url": "https://twitter.com/BhandEth/status/1885361550682448005"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2025-01-27",
+    "end": "2025-02-22"
+  },
+  "contentTypes": {
+    "withImages": 6,
+    "withVideos": 4,
+    "withLinks": 4,
+    "textOnly": 86
+  }
+}
