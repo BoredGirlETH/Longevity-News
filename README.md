@@ -1,92 +1,144 @@
-# Longevity News
+# Bryan Johnson Longevity Agent
 
-Pipeline for collecting and processing longevity-related news and updates from Twitter and blogs.
+A **Next.js** project that parses Bryan Johnson’s latest tweets, longevity-related news, and personal metrics, then displays them in a structured format. This agent is hardcoded to focus on Bryan’s health data, dietary protocols, and lifestyle experiments.
 
-> ⚠️ **IMPORTANT**: Create a new Twitter account for this tool. DO NOT use your main account as it may trigger Twitter's automation detection and result in account restrictions.
+---
 
-## Setup
+## Project Overview
 
-1. Install dependencies:
+The **Bryan Johnson Longevity Agent** scans Twitter for updates on Bryan Johnson’s longevity journey, including key insights like:
+
+- **Sleep Stats:** Deep sleep hours, REM sleep hours.
+- **Blood Markers:** Glucose variance, cortisol levels, etc.
+- **Temperature Settings:** Cold plunge details, ambient room temperature.
+- **Biological Age:** Comparison to chronological age.
+- **Diet & Supplements:** Metformin, Rapamycin cycling, Lion's Mane.
+- **Therapies & Exercise:** Cold plunges, red light therapy, Zone 2 cardio.
+- **Recent Experiments:** Observed changes in glucose response, deep sleep optimization, etc.
+- **Focus Areas:** Sleep, metabolic health, anti-aging interventions.
+- **Overall Mood:** A neutral or factual summary.
+
+Use this agent to keep track of daily or weekly changes in Bryan’s regimen.
+
+---
+
+## Key Features
+
+1. **Tweet Parsing:** Extracts Bryan’s tweets related to longevity and personal experiments.
+2. **Formatted Insights:** Presents data in a neat bullet-point style:
+   - **Bryan Johnson Analysis**
+   - **Latest Metrics** (sleep, blood markers, temperature, etc.)
+   - **Current Protocol** (dietary regimens, supplements, therapies)
+   - **Recent Experiments** (observed improvements, changes)
+   - **Current Focus Areas** (health/fitness categories)
+   - **Overall Mood**
+3. **Next.js + Tailwind CSS:** Provides a responsive and modern UI.
+4. **Easily Extensible:** You can modify the agent to track other longevity enthusiasts or integrate additional data sources.
+
+---
+
+## Project Structure
+
+```bash
+.
+├── pages/                # Next.js pages
+├── components/           # Reusable React components
+├── styles/               # Global and Tailwind styles
+├── public/               # Public assets
+├── package.json          # Dependencies and scripts
+├── tailwind.config.js    # Tailwind CSS configuration
+├── postcss.config.js     # PostCSS plugins
+└── README.md             # You are here
+```
+
+---
+
+## Getting Started
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/YourUsername/BryanJohnsonAgent.git
+   cd BryanJohnsonAgent
+   ```
+2. **Install Dependencies**
    ```bash
    npm install
    ```
-
-2. Copy the `.env.example` into a `.env` file:
-   ```properties
-   # (Required) Twitter Authentication
-   TWITTER_USERNAME=     # your twitter username
-   TWITTER_PASSWORD=     # your twitter password
-
-   # (Optional) Blog Configuration
-   BLOG_URLS_FILE=      # path to file containing blog URLs
-
-   # (Optional) Scraping Configuration
-   MAX_TWEETS=          # max tweets to scrape
-   MAX_RETRIES=         # max retries for scraping
-   RETRY_DELAY=         # delay between retries
-   MIN_DELAY=           # minimum delay between requests
-   MAX_DELAY=           # maximum delay between requests
+3. **Run Development Server**
+   ```bash
+   npm run dev
    ```
+   This starts a local server at `http://localhost:3000`.
+4. **Build for Production** (Optional)
+   ```bash
+   npm run build
+   npm run start
+   ```
+
+---
 
 ## Usage
 
-### Twitter Collection 
-```bash
-npm run twitter -- username
-```
-Example: `npm run twitter -- pmarca`
+1. **Automatic Tweet Parsing**
+   - The agent fetches Bryan Johnson’s Twitter feed for longevity-related keywords.
+   - You can configure keywords or hashtags in the source code if you want to filter tweets.
+2. **Display Metrics**
+   - The app shows summarized health metrics and Bryan’s daily or weekly progress.
+   - Example Output:
+     ```text
+     Bryan Johnson Analysis
+     Latest Metrics
+     • Sleep: 2.2 hrs deep sleep, 1.8 hrs REM
+     • Blood Markers: Glucose variance ±4 mg/dl, Morning cortisol 12.3 ng/mL
+     • Temperature: Cold plunge 54°F, Sleep environment 65°F
+     • Biological Age: 5.2 years younger than chronological age
 
-### Collection with date range
-```bash
-npm run twitter -- username --start-date 2025-01-01 --end-date 2025-01-31
-```    
+     Current Protocol
+     • Time-Restricted Feeding (6-hour window)
+     • Rapamycin cycling and Metformin
+     • Lion's Mane and cognitive enhancers
+     • Cold plunge therapy
+     • Red light therapy
+     • Zone 2 cardio
+     • Meditation practice
 
-### Merge Characters
-```bash
-npm run merge-characters -- new-character-name character1 character2
-```
-Example: `npm run merge-characters -- cobiedart cobie-2025-01-29 satsdart-2025-01-29`
+     Recent Experiments
+     • Metformin + Exercise: 31% better glucose response
+     • Sleep temperature optimization: 23% increase in deep sleep
+     • Lion's Mane supplementation reducing brain inflammation
+     • Zero alcohol/sugar protocol (Day 732)
 
-### Blog Collection
-```bash
-npm run blog
-```
+     Current Focus Areas
+     • Sleep optimization
+     • Cognitive enhancement
+     • Metabolic health
+     • Anti-aging interventions
+     • Inflammation reduction
 
-### Generate Character
-```bash
-npm run character -- username
-```
-Example: `npm run character -- pmarca`
+     Overall Mood
+     • Neutral and factual
+     ```
+3. **Customization**
+   - You can adjust the displayed metrics or add more detailed data scraping.
+   - For instance, integrate labs or wearable device APIs to enrich the data.
 
-### Finetune
-```bash
-npm run finetune
-```
+---
 
-### Finetune (with test)
-```bash
-npm run finetune:test
-```
+## Contributing
 
-### Generate Virtuals Character Card
-https://whitepaper.virtuals.io/developer-documents/agent-contribution/contribute-to-cognitive-core#character-card-and-goal-samples
+1. **Fork** this repository.
+2. **Create a branch** for your feature (`git checkout -b feature-new-protocol`).
+3. **Commit changes** (`git commit -m "Added new protocol tracker"`).
+4. **Push** to your fork (`git push origin feature-new-protocol`).
+5. **Open a Pull Request** with a detailed description of your changes.
 
-Run this after Twitter Collection step 
-```bash
-npm run generate-virtuals -- username date 
-```
+---
 
-Example: `npm run generate-virtuals -- pmarca 2024-11-29`
-Example without date: `npm run generate-virtuals -- pmarca`
+## License
 
-The generated character file will be in the `pipeline/[username]/[date]/character/character.json` directory.
-The generated tweet dataset file will be in `pipeline/[username]/[date]/raw/tweets.json`.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-### Generate Merged Character
-```bash
-npm run generate-merged-virtuals -- username date
-```
-Example: `npm run generate-merged-virtuals -- pmarca 2024-11-29`
+---
 
-The generated merged character file will be in `pipeline/[username]/[date]/character/merged_character.json` directory.
-§
+**Enjoy tracking Bryan Johnson’s journey and staying up-to-date on all things longevity!**
+
